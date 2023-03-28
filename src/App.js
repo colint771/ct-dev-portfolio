@@ -1,56 +1,59 @@
-import React, { useState } from 'react';
-import { Route, Switch, NavLink } from 'react-router-dom';
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
 import './App.css';
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+import Portfolio from './Components/Projects';
 
-function App() {
-  const [activeLink, setActiveLink] = useState('aboutMe');
+class App extends Component {
 
-  return (
-    <div className="App">
-      <header>
-        <h1>Colin Taliaferro's Portfolio</h1>
-        <nav>
-          <ul>
-            <li>
-              <NavLink to="/aboutMe" activeClassName="active" onClick={() => setActiveLink('aboutMe')}>
-                About Me
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/portfolio" activeClassName="active" onClick={() => setActiveLink('portfolio')}>
-                Portfolio
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contact" activeClassName="active" onClick={() => setActiveLink('contact')}>
-                Contact
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/resume" activeClassName="active" onClick={() => setActiveLink('resume')}>
-                Resume
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <Switch>
-          <Route exact path="/" component={AboutMe} />
-          <Route path="/aboutMe" component={AboutMe} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-        </Switch>
-      </main>
-      <Footer />
-    </div>
-  );
+  constructor(props){
+    super(props);
+    this.state = {
+      foo: 'bar',
+      resumeData: {}
+    };
+
+    ReactGA.initialize('UA-110570651-1');
+    ReactGA.pageview(window.location.pathname);
+
+  }
+
+  getResumeData(){
+    $.ajax({
+      url:'./resumeData.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({resumeData: data});
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount(){
+    this.getResumeData();
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Contact data={this.state.resumeData.main} repos={this.state.resumeData.portfolio}/>
+        <Footer data={this.state.resumeData.main}/>
+      </div>
+    );
+  }
 }
 
 export default App;
