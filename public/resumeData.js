@@ -1,0 +1,176 @@
+{
+    "main" = {
+      "name": "Colin Taliaferro",
+      "description": "Developer / Trader / Analyst / Perpetual Learner",
+      "image": "profilepic.jpg",
+      "bio": "My name is Colin Taliaferro, and I was born and raised in Atlanta, GA. I graduated from The University of Georgia with a BBA in Finance and certificate in Entrepreneurship. Additionally, I am a current Georgia Tech Full-Stack Coding Bootcamp Student. Using the skills I've developed throughout my bootcamp, I am building a web development busineess to provide efficient and affordable web development services for businesses all across the world.",
+      "contactmessage": "Feel free to contact me via email, this form, phone, or LinkedIn",
+      "email": "colint771@gmail.com",
+      "phone": "404-989-7663",
+      "github": "https://github.com/colint771",
+      "project": "https://www.linkedin.com/in/colintaliaferro/",
+      "address": {
+        "street": "(Your Street)",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "(Your Zip/Postal Code)"
+      },
+      "website": "https://github.com/colint771",
+      "resumedownload": "public/resume/Hampton-Colin-Taliaferro-Resume2.pdf",
+      "social": [
+        {
+          "name":"github",
+          "url":"https://github.com/colint771",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/colintaliaferro/",
+          "className":"fa fa-linkedin"
+        }
+      ]
+    };
+    "resume" = {
+      "skillmessage":"* Each skill level is weighted in correlation to the remaining skills",
+      "education":[
+        {
+          "school":"Georgia Tech",
+          "gpa": "A Academic Average",
+          "degree":"Full-Stack Web Development Coding Bootcamp Certificate",
+          "graduated":"April 2023",
+          "description":"Coursework Included: HTML, CSS, Git & GitHub, JavaScript, APIs, Node.js, Object-Oriented Programming (OOP), Express.js, SQL, Object-Relational Mapping (ORM), Model-View-Controller (MVC), CS for JavaScript, NoSQL, Progressive Web Applications (PWA), React.js, jQuery, Bootstrap, Handlebars.js, & MongoDB"
+        },
+        {
+          "school":"University of Georgia",
+          "gpa": "3.6 GPA",
+          "degree":"B.B.A in Finance & Certificate in Entrepreneurship",
+          "graduated":"May 2022",
+          "description":"Coursework Included: Financial Modeling in Excel; Corporate Finance Theory; Financial Report & Analysis; Financial Institutions & Markets; Survey of Investments, Derivative Security Markets, Applied Corporate Finance"
+        }
+      ],
+      "work":[
+        {
+          "company":"Deloitte",
+          "title":"Engagement Financial Advisor",
+          "years":"July 2022 - Present",
+          "description":"Provide support to Senior Managers and Partners by providing key financial metrics for specific projects, forecasting resources' hours & engagements' financial performance, providing time & expense updates, and invoicing"
+        },
+        {
+          "company":"WorkPlace Answers",
+          "title":"Financial Analyst Intern",
+          "years":"May 2021 - August 2021",
+          "description":"Performed NPV, IRR, and DCF analysis for firm & potential projects; Projected future financials via Excel; Conducted extensive market research on competitors and growth opportunities"
+        }
+      ],
+      "skills":[
+        {
+          "name":"HTML / CSS / Bootstrap",
+          "level":"80%"
+        },
+        {
+          "name":"ReactJS",
+          "level":"50%"
+        },
+        {
+          "name":"MongoDB / Mongoose",
+          "level":"45%"
+        },
+        {
+          "name":"Terminal / Git",
+          "level":"95%"
+        },
+        {
+          "name":"NodeJS / ExpressJS",
+          "level":"85%"
+        },
+        {
+          "name":"MySQL / Sequelize",
+          "level":"60%"
+        },
+        {
+          "name":"JavaScript / jQuery",
+          "level":"70%"
+        },
+        {
+          "name":"REST APIs",
+          "level":"80%"
+        },
+      ]
+    },
+    "portfolio" = {
+      "projects": [
+        {
+          "title":"PWA Text Editor",
+          "shorttitle": "J.A.T.E",
+          "category":"Academic Project",
+          "image":"public/images/text-editor-ss.png",
+          "info":"Node, express, various npm packages, nodemon, concurrently, and webpack",
+          "url":"https://immense-cove-89952.herokuapp.com",
+          "repo":"https://github.com/colint771/pwa-text-editor"
+        },
+        {
+          "title":"HighPoint Market Insights",
+          "shorttitle": "GT Fina Markets Website",
+          "category":"Academic (group) Project",
+          "image": "public/images/HPMKTScreenshot-Medium.jpeg",
+          "info":"HighPoint Market Insights is a website made for investors, by investors. This web applications utilizes server-side APIs so users can see the top gainers, losers, and most active stocks on the US markets every day. Additionally, the users are able to see the performance of indices across the globe.",
+          "url":"https://colint771.github.io/HighPoint-Market-Insights",
+          "repo":"https://github.com/colint771/HighPoint-Market-Insights"
+        },
+        {
+          "title":"EarthX",
+          "shorttitle": "EarthX",
+          "category":"Academic (group) Project",
+          "image":"public/images/EarthX-SS.png",
+          "info":"This project utilizes Node, Express, Handlebars, and MYSQL to provide a push pin location application that, with your permission, saves your current location, and allows you to pin your favorite spots all across the world.",
+          "url":"https://earth-x.herokuapp.com/",
+          "repo":"https://github.com/Reggiejr44/exploring-ourworld"
+        },
+        {
+          "title":"Code Quiz",
+          "shorttitle": "Code Quiz",
+          "category":"Academic Project",
+          "image":"public/images/code-quiz-ss.png",
+          "info":"utilizes dynamic HTML and CSS powered by JavaScript to create a timed code quiz.",
+          "url":"https://colint771.github.io/Code-Quiz/",
+          "repo":"https://github.com/colint771/Code-Quiz"
+        },
+        {
+          "title":"Tech Blog",
+          "shorttitle": "Tech Blog",
+          "category":"Academic Project",
+          "image":"public/images/techblogss.png",
+          "info":"This application utilizes Node, Express, dotenv, MYSQl2, Sequelize, and handlebars to provide a blog website that allows users to see posts from other users, create their own post, edit and delete their post, and comment on others (or their own) posts.",
+          "url":"https://sheltered-mesa-42485.herokuapp.com",
+          "repo":"https://github.com/colint771/mvc-tech-blog"
+        },
+        {
+          "title":"Burger Tracker",
+          "shorttitle": "Burger Tracker",
+          "category":"Academic Project",
+          "image":"burgerTracker.PNG",
+          "info":"MySql, Express, Nodejs, Handlebars, HTML, CSS, JS, Bootstrap, jQuery",
+          "url":"https://mysql-mvc-burger-shop.herokuapp.com/",
+          "repo":"https://github.com/tutchings/13_burgerTracker"
+        },
+        {
+          "title":"Password Generator",
+          "shorttitle": "Password Generator",
+          "category":"Academic Project",
+          "image":"public/images/password-generator-SS.png",
+          "info":"This project consisted of utilzing JavaScript to create a password generator that outputs a password containing between 8 and 128 characters consisting of upper case letters, lower case letters, numbers, and special characters.",
+          "url":"https://colint771.github.io/Password-Generator/",
+          "repo":"https://github.com/colint771/Password-Generator"
+        },
+        {
+          "title":"Work Day Calendar",
+          "shorttitle": "Work Day Calendar",
+          "category":"Academic Project",
+          "image":"public/images/work-day-calendar-ss.png",
+          "info":"This is a work day scheduler web application that allows you to input and save tasks or activities for each hour of the day from 9:00 AM through 7:00 PM. This app runs in the browser and features dynamically updated HTML and CSS elements powered by jQuery",
+          "url":"https://colint771.github.io/work-day-calendar/",
+          "repo":"https://github.com/colint771/work-day-calendar"
+        }
+      ]
+    }
+  }
