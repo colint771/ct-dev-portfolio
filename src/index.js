@@ -6,7 +6,7 @@ import App from './App';
 import Projects from './Projects';
 import About from './AboutMe';
 import Contact from './Contact';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from 'src/registerServiceWorker.js';
 
 ReactDOM.render(
   <Router>
@@ -21,4 +21,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-serviceWorker.unregister();
+registerServiceWorker();
