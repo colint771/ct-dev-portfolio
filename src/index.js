@@ -3,22 +3,18 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Projects from './Projects';
-import About from './AboutMe';
-import Contact from './Contact';
-import * as serviceWorker from 'src/registerServiceWorker.js';
+import Projects from './Components/Projects';
+import About from './Components/AboutMe';
+import Contact from './Components/Contact';
+import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/resume" component={Resume} />
-    </Switch>
-  </Router>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'))
+  // <App>
+  //   <Route exact path="/" component={App} />
+  //   <Route path="/Projects" component={Projects} />
+  //   <Route path="/AboutMe" component={About} />
+  //   <Route path="/Contact" component={Contact} />
+  //   <Route path="/Resume" component={Resume} />
+  // </App>, document.getElementById('root'));
 
 registerServiceWorker();
