@@ -4,10 +4,10 @@ import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import About from './Components/AboutMe';
+import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
-import Portfolio from './Components/Projects';
+import Portfolio from './Components/Portfolio';
 
 class App extends Component {
 
@@ -25,7 +25,7 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'./resumeData.json',
+      url:'/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
