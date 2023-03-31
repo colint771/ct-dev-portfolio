@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/colint771/ct-dev-portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/colint771/ct-dev-portfolio/static/js/main.c007b677.js",
+    "index.html": "/colint771/ct-dev-portfolio/index.html",
+    "main.c007b677.js.map": "/colint771/ct-dev-portfolio/static/js/main.c007b677.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.c007b677.js"
+  ]
+}
