@@ -16,7 +16,7 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "https://github.com/colint771",
-    "resumedownload": "https://drive.google.com/file/d/1aeLfQwErwwtsbFKCQDdznk4dOhdaYimF/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/16qOfp-CPpO79Hrayk8SdtgkSLinFs9iM/view?usp=sharing",
     "social": [
       {
         "name":"github",
@@ -103,7 +103,7 @@
           "title":"PWA Text Editor",
           "shorttitle": "J.A.T.E",
           "category":"Academic Project",
-          "image":"./images/text-editor-ss.png",
+          "image":"./Assets/images/text-editor-ss.png",
           "info":"Node, express, various npm packages, nodemon, concurrently, and webpack",
           "url":"https://immense-cove-89952.herokuapp.com",
           "repo":"https://github.com/colint771/pwa-text-editor"
@@ -112,7 +112,7 @@
           "title":"HighPoint Market Insights",
           "shorttitle": "Fina Markets Website",
           "category":"Academic (group) Project",
-          "image": "./images/HPMKTScreenshot-Medium.jpeg",
+          "image": "/images/HPMKTScreenshot-Medium.jpeg",
           "info":"HighPoint Market Insights is a website made for investors, by investors. This web applications utilizes server-side APIs so users can see the top gainers, losers, and most active stocks on the US markets every day. Additionally, the users are able to see the performance of indices across the globe.",
           "url":"https://colint771.github.io/HighPoint-Market-Insights",
           "repo":"https://github.com/colint771/HighPoint-Market-Insights"
@@ -121,7 +121,7 @@
           "title":"EarthX",
           "shorttitle": "EarthX",
           "category":"Academic (group) Project",
-          "image":"./images/EarthX-SS.png",
+          "image":"./public/images/EarthX-SS.png",
           "info":"This project utilizes Node, Express, Handlebars, and MYSQL to provide a push pin location application that, with your permission, saves your current location, and allows you to pin your favorite spots all across the world.",
           "url":"https://earth-x.herokuapp.com/",
           "repo":"https://github.com/Reggiejr44/exploring-ourworld"
@@ -130,7 +130,7 @@
           "title":"Code Quiz",
           "shorttitle": "Code Quiz",
           "category":"Academic Project",
-          "image":"./images/code-quiz-ss.png",
+          "image":"/public/images/code-quiz-ss.png",
           "info":"utilizes dynamic HTML and CSS powered by JavaScript to create a timed code quiz.",
           "url":"https://colint771.github.io/Code-Quiz/",
           "repo":"https://github.com/colint771/Code-Quiz"
@@ -139,7 +139,7 @@
           "title":"Tech Blog",
           "shorttitle": "Tech Blog",
           "category":"Academic Project",
-          "image":"./images/techblogss.png",
+          "image":"/public/images/techblogss.png",
           "info":"This application utilizes Node, Express, dotenv, MYSQl2, Sequelize, and handlebars to provide a blog website that allows users to see posts from other users, create their own post, edit and delete their post, and comment on others (or their own) posts.",
           "url":"https://sheltered-mesa-42485.herokuapp.com",
           "repo":"https://github.com/colint771/mvc-tech-blog"
@@ -149,7 +149,7 @@
           "title":"Password Generator",
           "shorttitle": "Password Generator",
           "category":"Academic Project",
-          "image":"./images/password-generator-SS.png",
+          "image":"public/images/password-generator-SS.png",
           "info":"This project consisted of utilzing JavaScript to create a password generator that outputs a password containing between 8 and 128 characters consisting of upper case letters, lower case letters, numbers, and special characters.",
           "url":"https://colint771.github.io/Password-Generator/",
           "repo":"https://github.com/colint771/Password-Generator"
@@ -158,7 +158,7 @@
           "title":"Work Day Calendar",
           "shorttitle": "Work Day Calendar",
           "category":"Academic Project",
-          "image":"./images/work-day-calendar-ss.png",
+          "image":"public/images/work-day-calendar-ss.png",
           "info":"This is a work day scheduler web application that allows you to input and save tasks or activities for each hour of the day from 9:00 AM through 7:00 PM. This app runs in the browser and features dynamically updated HTML and CSS elements powered by jQuery",
           "url":"https://colint771.github.io/work-day-calendar/",
           "repo":"https://github.com/colint771/work-day-calendar"
