@@ -2,7 +2,7 @@
   "main": {
     "name": "Colin Taliaferro",
     "description": "Developer / Trader / Analyst / Perpetual Learner",
-    "image": "images/logo192.png",
+    "image": "./images/logo192.png",
     "bio": "My name is Colin Taliaferro, and I was born and raised in Atlanta, GA. I graduated from The University of Georgia with a BBA in Finance and certificate in Entrepreneurship. Additionally, I am a current Georgia Tech Full-Stack Coding Bootcamp Student. Using the skills I've developed throughout my bootcamp, I am building a web development busineess to provide efficient and affordable web development services for businesses all across the world.",
     "contactmessage": "Feel free to contact me via email, this form, phone, or LinkedIn",
     "email": "colint771@gmail.com",
